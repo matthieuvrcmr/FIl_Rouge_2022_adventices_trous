@@ -2,7 +2,7 @@
 """
 Created on Sun Jan 16 15:01:51 2022
 
-@author: ludov
+@author: ludovic pailloux, matthieu vercaemer, irène creton de limervilles, viviane pasteau, kexin li
 """
 import cv2 as cv
 import matplotlib.pyplot as plt
@@ -57,7 +57,6 @@ plt.savefig('Adventices_Filtre_Yen_Otsu')
 
 ------------------------------------------------------------------------------
 # Comptage de trous de corbeaux
-PATH_CROW : "DJI_0084_crows.JPG"
 rgb_image = cv.imread("DJI_0084_crows.JPG")
 green_channel = rgb_image[:,:,1]
 ret2,th2 = cv.threshold(green_channel,0,255,cv.THRESH_BINARY+cv.THRESH_TRIANGLE)  
