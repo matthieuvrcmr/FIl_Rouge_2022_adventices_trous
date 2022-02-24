@@ -18,7 +18,7 @@ Dossier Photo_crop : Contient les 11 photos exemples, ce sont des photos qui ont
 # DOSSIER DÉCOUPER_IMAGETTES_MAKESENSE
 
 Se compose d'un code python 'trou_découper01.py' qui permet de découper des images en imagettes à partir d'un dossier csv engendrer sur le site internet MakeSense:
-se.ai/?fbclid=IwAR1LlJuhJCZj616AvXFwXMx2voK4vQpcN3OFLHbdnVODEzxLAIHTjL5GiKk
+https://www.makesense.ai/?fbclid=IwAR1LlJuhJCZj616AvXFwXMx2voK4vQpcN3OFLHbdnVODEzxLAIHTjL5GiKk
 
 Il y a aussi deux photos 'DJI_0003.png', 'DJI_0012.png' avec leur dossier csv associé
 
