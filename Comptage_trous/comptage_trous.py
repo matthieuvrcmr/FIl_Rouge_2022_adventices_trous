@@ -6,8 +6,6 @@ Created on Tue Feb  1 14:57:35 2022
 @author: matthieuvercaemer
 """
 
-""""Créer un dossier général et y placer les dossiers de sortie du programme de kexin 'trou_decouper01'
-Ne déposer que les dossiers avec les imagettes dans ce dossier général"""
 
 import cv2
 import numpy as np
@@ -16,6 +14,10 @@ import matplotlib.pyplot as plt
 from skimage.filters import threshold_yen
 
 
+""""Créer un dossier général et y placer les dossiers de sortie du programme de 'trou_decouper01'
+Ne déposer que les dossiers avec les imagettes dans ce dossier général"""
+
+"""Renseigner ci-dessous le chemin vers le dossier général"""
 GEN_DIRECTORY = "/Users/matthieuvercaemer/Desktop/IODAA/IODAA/Fil_rouge/Comptage_trous/Imagettes/" #renseigner le chemin vers le dossier contenant les dossiers avec les imagettes
 
 
