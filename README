@@ -4,9 +4,43 @@ Created on Sun Jan 16 15:01:51 2022
 
 @author: ludovic pailloux, matthieu vercaemer, irène creton de limervilles, viviane pasteau, kexin li
 """
- # Importer les éléments suivants dans le même dossier 
- # Importer le dossier photos_crop
- # Importer le fichier DJI_0084_crows
- # Importer Code.py
- # Run Code.py
+# Importer les différents dossiers 
+
+################################################################
+
+# DOSSIER COMPTAGE ADVENTICE
+
+Se Compose d'un code python 'Adventices.py' permettant de compter la surface d'occupation d'adventices au sein de différentes photos qui doivent être préalablement recadrer pour éliminer les parties extérieures au champ. 
+Dossier Photo_crop : Contient les 11 photos exemples, ce sont des photos qui ont été recadrés à la main afin d'éliminer les parties extérieures au champ.
     
+################################################################
+
+# DOSSIER DÉCOUPER_IMAGETTES_MAKESENSE
+
+Se compose d'un code python 'trou_découper01.py' qui permet de découper des images en imagettes à partir d'un dossier csv engendrer sur le site internet MakeSense:
+se.ai/?fbclid=IwAR1LlJuhJCZj616AvXFwXMx2voK4vQpcN3OFLHbdnVODEzxLAIHTjL5GiKk
+
+Il y a aussi deux photos 'DJI_0003.png', 'DJI_0012.png' avec leur dossier csv associé
+
+################################################################
+
+# DOSSIER COMPTAGE_TROUS
+
+Se compose d'un code python 'comptage_trous.py' permettant de compter le nombre de trous présents dans une image à partir de toutes les imagettes prélablement générées sur 'trous_découper01.py'.
+Le comptage se fait grâce au filtrage triangle.
+Il y a un dossier imagette contenant les imagettes associées à une image. 
+
+################################################################
+
+# DOSSIER IDENTIFIER_RANGS
+
+Se compose d'un code python 'shape_trous.py' qui permet d'identifier des trous dans une image à partir de leur forme suivant plusieurs critères :
+- Par circularité et surface
+- Par circularité
+- Paris surface
+
+Se compose d'un code 'A REMPLIR' permettant de pivoter les photos pour avoir des rangs verticaux, puis d'identifier les rangs grâce à la  méthode 'shape_trous.py' et de découper les imagettes automatiquement.
+
+
+
+
