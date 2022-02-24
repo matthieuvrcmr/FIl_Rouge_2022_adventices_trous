@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Fonctions:
-    (1) encardrer les trous à partir de l'image originale et les annotations en format csv
+    (1) encadrer les trous à partir de l'image originale et les annotations en format csv créées sur le site internet MakeSense (Il faut des imagettes rectangulaires/carrés)
     (2) decouper les imagette à partir de l'image originale et les annotations en format csv
 
 Arg à entrer:
